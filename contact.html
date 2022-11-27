@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Page</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div>
+            <a href='index.html'>
+                <img class='logo' src="images/UAE.png" alt="logo">
+            </a>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="home.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div style="text-align:center">
+            <h2>Contact UAE</h2>
+            <p>We love to hear from you.</p>
+        </div>
+        <div class="row">
+
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="first name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder=" last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="Senegal">Senegal</option>
+                        <option value="Saudie Arabia">Saudie Arabia</option>
+                        <option value="Emirates">Emirates</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="What's your thoughts..."
+                        style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <footer>
+        This is the footer
+    </footer>
+</body>
+
+</html>
